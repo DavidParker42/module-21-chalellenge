@@ -1,5 +1,5 @@
 const { Tech, Matchup, User } = require("../models");
-const { AuthenticationError } =require("appolo/server/express");
+const { AuthenticationError } = require("apollo-server-express");
 
 const resolvers = {
   Query: {
