@@ -10,7 +10,7 @@ const typeDefs = gql`
   }
 
   type Book {
-    book_id: ID!
+    bookId: ID!
     image: String
     link: String
     title: String
@@ -19,7 +19,7 @@ const typeDefs = gql`
   }
   type Auth {
     token: ID!
-    User: String
+    user: User
   }
 
   type Query {
